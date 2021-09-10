@@ -10,6 +10,7 @@ body {
 :root {
     --red:#dd3f31;
     --black:#001220;
+    --green:#42af27;
     --white:whitesmoke;
     --blue:#0066FF;
 }
@@ -156,3 +157,32 @@ section p{
 .blue{
     background-color: var(--blue);
 }
+
+.custom-shape-divider-bottom-1631234297 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1631234297 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 154px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1631234297 .shape-fill {
+    fill: var(--green);
+}
+
+/***************************Section Projects***************************/
+.green{
+    background-color: var(--green);
+}
+
+/***************************Section Contact***************************/
