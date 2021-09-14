@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+html{
+    scroll-behavior: smooth
+}
 body {
     background-color: var(--black);
     font-family: 'Prompt', sans-serif;
